@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<style>
+table {border-collapse: collapse;}
+th {border: 1px solid black;padding:5px;text-align:center;}
+td {border: 1px solid black;padding:5px;text-align:left;}
+</style>  
+<head>
+<!-- Add a suitable title for this page -->
+<title>Chunked Design</title>
+</head>
+<body style="text-align: center; padding: 20px 40px; font-family: Arial, Helvetica, sans-serif;">
+<!-- What is the name of this folder? -->
+<h1>Chunked Design</h2>
+
+<p style="font-weight: bold; font-size: 20px">Subsystems</p>
+<table style="margin:auto; margin-top: 40px; margin-bottom: 40px;">
+	<tr>
+		<th style="width: 280px">Randomization Subsystem:<span style="font-weight: 400"> Randomly deals cards, for use in the penalty stage</span></th>
+		<th style="width: 280px">Flow Subsystem:<br><span style="font-weight: 400"> Ensures rules are followed and facilitates smooth game flow</span></th>
+		<th style="width: 280px">Timer Subsystem:<br><span style="font-weight: 400"> Determines who the last player to execute the action in the playing stage is</span></th>
+		<th style="width: 280px">Card Recognition and Tracking Subsystem: <br><span style="font-weight: 400">Identifies the type of playing cards flipped open in the playing stage and records the movement and quantity of cards</span></th>
+	</tr>
+	<tr>
+		<td style="width: 280px">The system should have random elements that reduce the chances of a player monopolizing the game</td>
+		<td style="width: 280px">The system should be able to resolve ties in the playing stage</td>
+		<td style="width: 280px">The system should be able to detect who the last person to execute an action in the playing stage is</td>
+		<td style="width: 280px">The system should be able to track the number of playing cards on hand</td>
+	</tr>
+	<tr>
+		<td style="width: 280px">The system should be able to randomly deal a penalty card to penalized player</td>
+		<td style="width: 280px">The system should allow game continuation when the penalty cards run out</td>
+		<td style="width: 280px"></td>
+		<td style="width: 280px">The system should be able to check if a 'local' playing card has been played</td>
+	</tr>
+	<tr>
+		<td style="width: 280px">Challenge penalty cards</td>
+		<td style="width: 280px">The system should penalise people who break the rules</td>
+		<td style="width: 280px"></td>
+		<td style="width: 280px">The system should be able to check if a match between 'object' playing cards has been made</td>
+	</tr>
+	<tr>
+		<td style="width: 280px">Fate penalty cards</td>
+		<td style="width: 280px"></td>
+		<td style="width: 280px"></td>
+		<td style="width: 280px">The system should be able to record the number of penalty cards each player has</td>
+	</tr>
+	<tr>
+		<td style="width: 280px"></td>
+		<td style="width: 280px"></td>
+		<td style="width: 280px"></td>
+		<td style="width: 280px">The system should be able to check when a penalty card has been kept by a player</td>
+	</tr>
+	<tr>
+		<td style="width: 280px"></td>
+		<td style="width: 280px"></td>
+		<td style="width: 280px"></td>
+		<td style="width: 280px">Object playing cards</td>
+	</tr>
+	<tr>
+		<td style="width: 280px"></td>
+		<td style="width: 280px"></td>
+		<td style="width: 280px"></td>
+		<td style="width: 280px">Local playing cards</td>
+	</tr>
+		<tr>
+		<td style="width: 280px"></td>
+		<td style="width: 280px"></td>
+		<td style="width: 280px"></td>
+		<td style="width: 280px">Challenge penalty cards</td>
+	</tr>
+		<tr>
+		<td style="width: 280px"></td>
+		<td style="width: 280px"></td>
+		<td style="width: 280px"></td>
+		<td style="width: 280px">Fate penalty cards</td>
+	</tr>
+</table>
+<div style="width: 100%; margin-top: 80px">
+	<button type="" style="border-radius: 10px;  width: 200px; height:40px; cursor: pointer"><a href="../index.html" style="text-decoration: none;font-size: 24px; ">BACK</a></button>
+</div>
+</body>
+</html>
